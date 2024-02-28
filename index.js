@@ -20,7 +20,7 @@ app.use('/', require('./routes/authRoutes'))
 
 
 app.use(cors({
-    origin: ['https://mern-auth-temp.vercel.app', 'http://localhost:5173'], // you can set multiple origins
+    origin: ['https://mern-auth-temp.vercel.app'], // you can set multiple origins
     credentials: true,
 }));
 
